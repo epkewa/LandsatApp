@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <div class="Pokazateli">
+        <div class="fasting">
+            <img src="static/source/fasting.png">
+            <h1 id="fasting-value">70М/С²</h1>
+        </div>
+        <div class="davlen"> 
+            <img src="static/source/davlen.png">
+            <h1 id="davleni">1013гПа</h1>
+        </div>
+        <div class="temp">
+            <img src="static/source/temp.png">
+            <h1 id="temp-value">+28°</h1>
+        </div>
+        <div class="humidy">
+            <img src="static/source/humidy.png">
+            <h1 id="humy">57%</h1>
+        </div>
+        <div class="logos">
+            <img src="static/source/logos.png">
+        </div>
+    </div>
+    <div class="Pokazateli2">
+        <div class="speed">
+            <img src="static/source/speed.png">
+            <h1 id="speedy">70М/С</h1>
+        </div>
+        <div class="CO2">
+            <img src="static/source/CO2.png">
+            <h2 id="CO">321ppm</h2>
+        </div>
+        <div class="sets">
+            <img id="seets" src="static/source/sets.png" alt="Status Image" class="fade-in">
+        </div>
+        <div class="console">
+            <img src="static/source/console.png">
+        </div>
+    </div>
+    <div class="Pokazateli3">
+        <div class="high">
+            <img src="static/source/high.png">
+            <h1 id="highe">800M</h1>
+        </div>
+        <div class="graph">
+            
+        </div>
+        <div class="prava">
+            <img src="static/source/prava.png">
+        </div>
+    </div>
+</body>
+<script>
+</script>
+</html>
